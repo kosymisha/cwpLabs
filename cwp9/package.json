@@ -1,0 +1,8 @@
+{
+	"name": "cwp9",
+	"author": "misha",
+	"dependencies": {
+		"axios": "^0.18.0",
+		"bluebird": "^3.5.2"
+	}
+}

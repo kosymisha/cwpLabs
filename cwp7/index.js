@@ -175,9 +175,9 @@ const server = http.createServer((req, res) => {
   else
   {
           handler(req, res, null, (err, result)=>{
-             console.log('suka');
+
       res.end(result);
-      console.log('suka2');
+
       });
   }
 });

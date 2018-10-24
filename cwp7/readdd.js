@@ -1,25 +1,26 @@
 gogogo();
 function gogogo(){
-	alert(14);
+	
 let xhr=new XMLHttpRequest();
-let body={page:Number(page.value),sortType:sortType.value,sortField:sortField.value,limit:Number(limit.value),includeDeps:includeDeps.value};
-alert(body.page);
-alert(body.sortType);
-alert(body.sortField);
-alert(body.limit);
+let body={page:Number(page.value),
+	sortOrder:sortOrder.value,
+	sortField:sortField.value,
+	limit:Number(limit.value),
+	includeDeps:includeDeps.value};
+
 xhr.open('POST', '/articles/readall', true);
 xhr.setRequestHeader('Content-type','application/json');
 xhr.send(JSON.stringify(body));
 
 xhr.onreadystatechange = function (){
-alert(body.sortType);
+
 
 	let res=[];
 	if(xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
 		alert('hello');
 		res=JSON.parse(xhr.responseText);
 		alert(xhr.responseText);
-		console.log(res);
+
 		deleteNodes('articlesContainer');
 		if(body.includeDeps=='true')
 		{
@@ -48,7 +49,7 @@ alert(body.sortType);
 			//alert(res.items[i]);
 
 				let div=document.createElement('div');				
-				let set="<p>"+res.items[i].title+"</p>"+"<p>"+res.items[i].text+"</p>"+"<p>"+res.items[i].date+"</p>"+"<p>"+res.items[i].author;	
+				let set="<p>" +res.items[i].id+ "</p>" + "<p>title: "+res.items[i].title+"</p>"+"<p>text: "+res.items[i].text+"</p>"+"<p>date: "+res.items[i].date+"</p>"+"<p>author: "+res.items[i].author + "<br><br></p>";	
 				div.innerHTML=set;
 				articlesContainer.appendChild(div);
 			}
