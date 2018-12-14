@@ -1,0 +1,18 @@
+2018-11-17 08:37:10: 
+/update [object Object]
+
+2018-11-17 08:37:15: 
+/update [object Object]
+
+2018-11-17 08:37:22: 
+/read/4 4
+
+2018-11-17 08:50:55: 
+/readall
+
+2018-11-17 08:51:37: 
+/update [object Object]
+
+2018-11-17 08:52:12: 
+/delete [object Object]
+

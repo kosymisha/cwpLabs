@@ -1,0 +1,7 @@
+{
+  "name": "cwp-18",
+  "version": "1.0.0",
+  "dependencies": {
+    "moment": "^2.23.0"
+  }
+}

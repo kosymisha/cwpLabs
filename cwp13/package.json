@@ -1,0 +1,10 @@
+{
+  "name": "cwp13",
+  "author": "misha",
+  "dependencies": {
+    "express": "^4.16.4",
+    "geolib": "^2.0.24",
+    "sequelize": "^4.41.2",
+    "tedious": "^3.0.1"
+  }
+}

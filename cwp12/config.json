@@ -1,0 +1,11 @@
+{
+  "db": "cwp12",
+  "login": "new",
+  "password": "new",
+  "port": 1434,
+  "host": "localhost",
+  "dialect": "mssql",
+  "dialectOptions": {
+    "instanceName": "MSSQLSERVER"
+  }
+}

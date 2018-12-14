@@ -1,0 +1,12 @@
+{
+  "name": "cwp-10",
+  "author": "misha",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.16.4",
+    "geolib": "^2.0.24",
+    "jsonwebtoken": "^8.4.0",
+    "sequelize": "^4.41.2",
+    "tedious": "^2.7.1"
+  }
+}

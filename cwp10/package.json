@@ -1,7 +1,7 @@
 {
-	"name": "cwp10",
-	"author": "misha",
-	"dependencies": {
-		"express": "^4.16.4"
-	}
+ "name": "cwp10",
+ "author": "misha",
+ "dependencies": {
+  "express": "^4.16.4"
+ }
 }

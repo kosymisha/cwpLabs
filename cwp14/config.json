@@ -1,0 +1,16 @@
+{
+  "db": "cwp14",
+  "login": "new",
+  "password": "new",
+  "port": 1434,
+  "host": "localhost",
+  "dialect": "mssql",
+  "dialectOptions": {
+    "instanceName": "MSSQLSERVER",
+    "encrypt": true
+  },
+  "define": {
+    "timestamps": true,
+    "paranoid": true
+  }
+}

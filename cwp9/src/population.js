@@ -192,5 +192,5 @@ function popCountries(results) {
 	console.log('Total: '+total);
 }
 function getError(error) {
-	console.log("Something bad");
+	console.log("error");
 }

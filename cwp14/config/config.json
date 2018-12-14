@@ -1,0 +1,43 @@
+{
+  "development": {
+    
+	"username": "new",
+    
+	"password": "new",
+    
+	"database": "cwp14",
+    
+	"host": "localhost",
+    
+	"dialect": "mssql"
+, 
+	"port":1434 },
+
+  "test": {
+    
+	"username": "new",
+    
+"password": "new",
+    
+"database": "cwp14",
+   
+ "host": "localhost",
+    
+"dialect": "mssql"
+, 
+"port":1434  },
+  
+	"production": {
+    "username": "new",
+    
+"password": "new",
+   
+ "database": "cwp14",
+  
+  "host": "localhost",
+    
+"dialect": "mssql", 
+"port":1434
+
+  }
+}
